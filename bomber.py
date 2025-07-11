@@ -6,7 +6,7 @@ import time
 def bomb(number):
     # Our sites that send SMS
     sites = [
-        ["https://cyclops.drnext.ir/v1/patients/auth/send-verification-token",
+        ["https://gorecenter.com/v1/patients/auth/send-verification-token",
          {"source": "besina", "mobile": number}],
 
         ["https://www.portal.ir/site/api/v1/user/otp",
